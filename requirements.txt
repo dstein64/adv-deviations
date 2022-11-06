@@ -1,0 +1,7 @@
+cleverhans==4.0.0
+matplotlib==3.6.0
+numpy==1.23.3
+pandas==1.5.0
+scipy==1.9.1
+torch==1.12.1
+torchvision==0.13.1
