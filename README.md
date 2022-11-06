@@ -4,7 +4,7 @@ This repository contains the code for *Deviations in Representations Induced by 
 Attacks*.
 
 <div align="center">
-  <img src="https://github.com/dstein64/media/adv-deviations/blob/main/plot.svg?raw=true" width="720"/>
+  <img src="https://github.com/dstein64/media/blob/main/adv-deviations/plot.svg?raw=true" width="720"/>
 </div>
 
 Reported running times are approximate, intended to give a general idea of how long each step will
