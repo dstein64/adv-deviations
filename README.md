@@ -94,8 +94,8 @@ python3 src/analyze.py
   title = {Deviations in Representations Induced by Adversarial Attacks},
   publisher = {arXiv},
   year = {2022},
-  eprint={2211.03714},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG}
+  eprint = {2211.03714},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG}
 }
 ```
