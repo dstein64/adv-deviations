@@ -1,7 +1,7 @@
 # Deviations in Representations Induced by Adversarial Attacks
 
-This repository contains the code for *Deviations in Representations Induced by Adversarial
-Attacks*.
+This repository contains the code for [Deviations in Representations Induced by Adversarial
+Attacks](http://arxiv.org/abs/2211.03714).
 
 <div align="center">
   <img src="https://github.com/dstein64/media/blob/main/adv-deviations/plot.svg?raw=true" width="720"/>
@@ -84,3 +84,18 @@ python3 src/calc_distances.py
 python3 src/analyze.py
 ```
 
+### Citation
+
+```
+@misc{steinberg2022deviations,
+  doi = {10.48550/ARXIV.2211.03714},
+  url = {https://arxiv.org/abs/2211.03714},
+  author = {Steinberg, Daniel and Munro, Paul},
+  title = {Deviations in Representations Induced by Adversarial Attacks},
+  publisher = {arXiv},
+  year = {2022},
+  eprint={2211.03714},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG}
+}
+```
