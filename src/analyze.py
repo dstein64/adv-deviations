@@ -54,9 +54,9 @@ def plot(data, outdir):
     axis_label_size = 13
     column_row_size = 14
     fig, axs = plt.subplots(nrows=len(METRICS), ncols=len(ATTACKS), figsize=(12, 5.0))
-    for metrix_idx, metric in enumerate(METRICS):
+    for metric_idx, metric in enumerate(METRICS):
         for attack_idx, attack in enumerate(ATTACKS):
-            ax = axs[metrix_idx, attack_idx]
+            ax = axs[metric_idx, attack_idx]
             model_data = [data[(metric, attack, checkpoint)] for checkpoint in range(NUM_CHECKPOINTS)]
             parts = ax.violinplot(
                 model_data,
@@ -79,7 +79,7 @@ def plot(data, outdir):
             ax.set_ylim((0, 1.75))
             ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(base=0.25))
             # Keep x labels only for bottom row
-            if metrix_idx != len(METRICS) - 1:
+            if metric_idx != len(METRICS) - 1:
                 ax.set_xticklabels([])
             # Keep y labels and ticks for only left row
             if attack_idx != 0:
